@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Licorice&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+DE+SAS:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Montserrat';
+}
+#parentUl{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: -35px;
+    width: 500px;
+}
+#deleteTask{
+    margin-left: 100px;
+    background-color: rgb(198, 25, 46);
+    color: white;
+    border: 1px solid gray;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+#deleteTask:hover{
+    background-color: rgb(0, 186, 15);
+}#parentUl li{
+    line-height: 25px;
+    background-color:aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+    grid-template-areas: 'lists deleteBtn';
+    padding: 5px 20px 5px 20px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid gray;
+}#userInput:focus{
+    outline: none;
+}
+#userInput{
+    padding-left: 10px;
+    height: 30px;
+    width: 210px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.holder{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.holder div{
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+}#addList{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: rgb(94, 195, 253);
+    color: white;
+
+}
